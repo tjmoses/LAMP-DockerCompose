@@ -7,11 +7,18 @@ If you have a Mac, click [here](https://docs.docker.com/v17.12/docker-for-mac/in
 Docker for Mac and Docker Toolbox already include Compose along with other Docker apps, so Mac users do not need to install Compose separately. Sorry Windows guys, you are on your own.
 
 ## To Get Going
+First make sure your docker machine is up on your Mac.
+Run the following via the terminal
+```docker
+docker-machine start default && docker-machine env && eval $(docker-machine env)
+```
+Next, start the example up.
 ```bash
 git clone https://github.com/tjmoses/LAMP-DockerCompose &&
 cd LAMP-DockerCompose/docker &&
 docker-compose up -d
 ```
+You will also have to set your docker machine ip to a domain name in your /etc/hosts file, if you want easy browser testing. Run docker-machine ip to get your docker instance ip.
 
 ## Other Helpful Commands
 ```docker
