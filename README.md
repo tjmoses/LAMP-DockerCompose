@@ -3,7 +3,7 @@
 
 ## Setup
 This project is mainly for local development testing of a LAMP stack setup using docker v17+ and docker-compose v3+.
-If you have a Mac, click [here](https://docs.docker.com/v17.12/docker-for-mac/install/) download docker .
+If you have a Mac, click [here](https://docs.docker.com/v17.12/docker-for-mac/install/) to download docker .
 Docker for Mac and Docker Toolbox already include Compose along with other Docker apps, so Mac users do not need to install Compose separately. Sorry Windows guys, you are on your own.
 
 ## To Get Going
