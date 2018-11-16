@@ -3,8 +3,7 @@
 
 ## Setup
 This project is mainly for local development testing of a LAMP stack setup using docker v17+ and docker-compose v3+.
-If you have a Mac, click [here](https://docs.docker.com/v17.12/docker-for-mac/install/) to download docker. If you have windows, click [here](https://docs.docker.com/docker-for-windows/install/). Also if you have a mac you will need to install [virtual box](https://www.virtualbox.org/wiki/Downloads). Windows users will use [Hyper-V](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/index) which is already installed on most windows machines. 
-Docker for Mac/Windows and Docker Toolbox already include Compose along with other Docker apps, so you do not need to install Compose separately. This LAMP stack also includes phpmyadmin.
+If you have a Mac, click [here](https://docs.docker.com/v17.12/docker-for-mac/install/) to download docker. If you have windows, click [here](https://docs.docker.com/docker-for-windows/install/). Also you will need to install [virtual box](https://www.virtualbox.org/wiki/Downloads). Docker for Mac/Windows and Docker Toolbox already include Compose along with other Docker apps, so you do not need to install Compose separately. This LAMP stack also includes phpmyadmin.
 
 ## To Get Going
 First make sure your docker machine is up on your Mac.
